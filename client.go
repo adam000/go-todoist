@@ -39,7 +39,7 @@ func makeCall(token string, endpointName string, pathParams map[string]string, d
 	r := client.R().SetAuthToken(token)
 
 	// build the URL
-	url := "https://api.todoist.com/rest/v1" + ep.Path
+	url := "https://api.todoist.com/rest/v2" + ep.Path
 	for k, v := range pathParams {
 		url = strings.Replace(url, ":"+k, v, -1)
 	}
