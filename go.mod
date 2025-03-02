@@ -1,4 +1,4 @@
-module github.com/treelightsoftware/go-todoist
+module github.com/adam000/go-todoist
 
 go 1.16
 
